@@ -3,6 +3,22 @@ class Student {
 	int score;
 	static final int MAX_SCORE = 100;
 	
+	String getName(){
+		return name;
+	}
+	
+	void setName(String name){
+		this.name = name;
+	}
+	
+	int getScore(){
+		return score;
+	}
+	
+	void setScore(int score){
+		this.score = score;
+	}
+
 	void printScore() {
 		System.out.println(name + "Ç≥ÇÒÇÕ" + MAX_SCORE + "ñûì_íÜ" + score + "ì_Ç≈Ç∑ÅB");
 	}
