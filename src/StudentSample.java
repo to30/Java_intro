@@ -8,6 +8,7 @@ class Student {
 	}
 	
 	void setName(String name){
+		//thisを付けることで引数のnameではなくフィールドのnameを使用
 		this.name = name;
 	}
 	
